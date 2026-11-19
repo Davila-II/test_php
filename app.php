@@ -1,9 +1,11 @@
 <?php
-    header("Cache-Control: no-store, no-cache, must-revalidate");
-    header("Cache-Control: post-check=0, pre-check=0", false);
-    header("Cache-Control: private");
-    header("Pragma: no-cache");
-    header('Content-Type:text/html; Charset=UTF-8');
+    if (!headers_sent()) {
+        header("Cache-Control: no-store, no-cache, must-revalidate");
+        header("Cache-Control: post-check=0, pre-check=0", false);
+        header("Cache-Control: private");
+        header("Pragma: no-cache");
+        header('Content-Type: text/html; charset=UTF-8');
+    }
 
     ob_start();
 
@@ -17,7 +19,6 @@
     require_once("db.php");
     require_once("models/i18n.php");
     require_once("fonctions.php");
-    require_once("models/classes.php");
 
     // Démarrer la session (compatible Vercel)
     SessionManager::start();

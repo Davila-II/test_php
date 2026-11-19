@@ -1,0 +1,24 @@
+# Données locales SQLite
+/data/
+*.sqlite
+*.db
+
+# Fichiers d'environnement
+.env
+.env.local
+.env.*.local
+
+# Vercel & éditeurs
+.vercel/
+.idea/
+.vscode/
+*.swp
+*~
+
+# Logs
+*.log
+/tmp/
+
+# Système d'exploitation
+.DS_Store
+Thumbs.db
