@@ -1,0 +1,492 @@
+/* ====================================================
+   DjoKhouse SCI - Light Theme (Thème Fond Blanc)
+   ==================================================== */
+
+/* Global backgrounds & text */
+body {
+    background: #ffffff !important;
+    color: #333333 !important;
+}
+
+#main, #wrapper, .content-holder {
+    background: #ffffff !important;
+}
+
+/* Headings & Text hierarchy */
+h1, h2, h3, h4, h5, h6,
+.section-title h2,
+.fixed-column-wrap_title h2,
+.fs-slider_align_title h2,
+.fs-slider_align_title h2 a,
+.column-wrap-container section h2,
+.column-wrap-container section h3,
+.serv-price-wrap h4,
+.team-info h3,
+.testi-item h3,
+.fet_pr-carousel_title h2,
+.post-det h3 a {
+    color: #111111 !important;
+}
+
+p, .column-wrapper_text p, .section-title p, .footer-box p, .testi-item p {
+    color: #4b5563 !important;
+}
+
+/* Left sidebar main header */
+.main-header {
+    background: #ffffff !important;
+    border-right: 1px solid #e5e7eb !important;
+    box-shadow: 2px 0 10px rgba(0,0,0,0.03) !important;
+}
+
+.logo-holder {
+    background: #ffffff !important;
+    border-bottom: 1px solid #e5e7eb !important;
+}
+
+.logo-holder img {
+    object-fit: contain;
+}
+
+.nav-button.but-hol {
+    border-bottom: 1px solid #e5e7eb !important;
+}
+
+.nav-button span {
+    background: #111111 !important;
+}
+
+.menu-button-text {
+    color: #111111 !important;
+}
+
+.header_social {
+    background: #ffffff !important;
+    border-top: 1px solid #e5e7eb !important;
+}
+
+.header_social ul li a,
+.top-header,
+.folio-btn-item {
+    color: #111111 !important;
+}
+
+.folio-btn {
+    background: #f3f4f6 !important;
+    border: 1px solid #e5e7eb !important;
+}
+
+.folio-btn .folio-btn-item {
+    background: #111111 !important;
+}
+
+.folio-btn-tooltip {
+    background: #ffffff !important;
+    color: #111111 !important;
+    border: 1px solid #e5e7eb !important;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05) !important;
+}
+
+/* Sliding navigation menu */
+.nav-holder {
+    background: #ffffff !important;
+    border-right: 1px solid #e5e7eb !important;
+    box-shadow: 5px 0 25px rgba(0,0,0,0.08) !important;
+}
+
+.nav-holder-dec {
+    background: #f9fafb !important;
+}
+
+.nav-holder-line {
+    background: #e5e7eb !important;
+}
+
+.logo_menu {
+    background: #ffffff !important;
+    border-bottom: 1px solid #e5e7eb !important;
+}
+
+.nav-container {
+    background: #ffffff !important;
+}
+
+.nav-inner ul li a {
+    color: #1f2937 !important;
+}
+
+.nav-inner ul li a:hover,
+.nav-inner ul li a.act-link {
+    color: #008751 !important;
+}
+
+.nav-inner ul li ul {
+    background: #f9fafb !important;
+    border-left: 2px solid #008751 !important;
+}
+
+.nav-inner ul li ul li a {
+    color: #4b5563 !important;
+}
+
+.nav-title span {
+    color: #9ca3af !important;
+}
+
+/* Sections, columns & panels */
+.column-wrap-container section,
+.column-wrap-container,
+.scroll-fixed-column-content,
+.fixed-column-wrap,
+.fixed-column-wrap_bg,
+.dark-bg,
+.dark-bg-2,
+.body-color-bg,
+.hero-wrap,
+.order-wrap,
+.single-services,
+.det-carousel-wrap,
+.home-half-slider {
+    background: #ffffff !important;
+}
+
+.fixed-column-wrap:before,
+.fixed-column-wrap_bg:before,
+.body-color-bg:before {
+    background: #ffffff !important;
+}
+
+.section-separator:before {
+    background: #e5e7eb !important;
+}
+
+.section-title:after {
+    background: #e5e7eb !important;
+}
+
+/* Cards & Content blocks */
+.services-item,
+.serv-price-wrap,
+.team-box,
+.gallery-item,
+.grid-det-item,
+.fet_pr-carousel-box-text,
+.box-item,
+.about-wrap,
+.service-box,
+.pricing-wrap {
+    background: #ffffff !important;
+    border: 1px solid #e5e7eb !important;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03) !important;
+}
+
+.fet_pr-carousel-box-text:after {
+    background: #ffffff !important;
+}
+
+.services-nav li a {
+    color: #374151 !important;
+    background: #f3f4f6 !important;
+}
+
+.services-nav li a.act-service {
+    background: #008751 !important;
+    color: #ffffff !important;
+}
+
+/* Footer styling */
+.main-footer {
+    background: #f9fafb !important;
+    border-top: 1px solid #e5e7eb !important;
+}
+
+.main-footer:before {
+    background: #f3f4f6 !important;
+}
+
+.footer-decor canvas {
+    opacity: 0.12 !important;
+}
+
+.footer-header {
+    color: #111111 !important;
+}
+
+.footer-header:before {
+    background: #008751 !important;
+}
+
+.footer-contacts li span {
+    color: #111111 !important;
+}
+
+.footer-contacts li a {
+    color: #4b5563 !important;
+}
+
+.footer-contacts li a:hover {
+    color: #008751 !important;
+}
+
+.subbfooter {
+    background: #f3f4f6 !important;
+    border-top: 1px solid #e5e7eb !important;
+}
+
+.policy-box span {
+    color: #6b7280 !important;
+}
+
+.footer-solcial li a {
+    color: #374151 !important;
+}
+
+/* Forms, Inputs & Buttons */
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="password"],
+textarea {
+    background: #ffffff !important;
+    color: #111111 !important;
+    border: 1px solid #d1d5db !important;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+    border-color: #008751 !important;
+    outline: none !important;
+}
+
+.subcribe-form .enteremail {
+    background: #ffffff !important;
+    border: 1px solid #d1d5db !important;
+    color: #111111 !important;
+}
+
+.subcribe-form .subscribe-button {
+    background: #008751 !important;
+    color: #ffffff !important;
+}
+
+.btn, .fc_button, .hero_btn, .contact-form-btn {
+    background: #008751 !important;
+    color: #ffffff !important;
+    border: 1px solid #008751 !important;
+}
+
+.btn:hover, .fc_button:hover, .hero_btn:hover, .contact-form-btn:hover {
+    background: #006b3f !important;
+    color: #ffffff !important;
+    border-color: #006b3f !important;
+}
+
+/* Preloader */
+.loader-wrap {
+    background: #ffffff !important;
+}
+
+.double-bounce1, .double-bounce2 {
+    background: rgba(0, 135, 81, 0.2) !important;
+}
+
+.double-bounce2 {
+    background: #008751 !important;
+}
+
+/* Portfolio & Filter bar */
+.fixed-bottom-panel {
+    background: #ffffff !important;
+    border-top: 1px solid #e5e7eb !important;
+}
+
+.fixed-bottom-panel:before {
+    background: #ffffff !important;
+}
+
+.fbp-filters {
+    background: #ffffff !important;
+}
+
+.gallery-filters a {
+    color: #4b5563 !important;
+}
+
+.gallery-filters a.gallery-filter-active {
+    color: #008751 !important;
+}
+
+.show-fixed-filters, .show-fixed-filters2 {
+    background: #f3f4f6 !important;
+    color: #111111 !important;
+    border: 1px solid #e5e7eb !important;
+}
+
+.count-folio {
+    background: #f3f4f6 !important;
+    color: #111111 !important;
+}
+
+.filt-text span {
+    color: #111111 !important;
+}
+
+.grid-det-item {
+    background: #ffffff !important;
+    border: 1px solid #e5e7eb !important;
+}
+
+.grid-det-item a {
+    color: #111111 !important;
+}
+
+/* Contact Page & Popup Form */
+.map-view-wrap {
+    background: #ffffff !important;
+    border: 1px solid #e5e7eb !important;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.05) !important;
+}
+
+.contact-details h4 {
+    color: #111111 !important;
+}
+
+.contact-details ul li span {
+    color: #111111 !important;
+}
+
+.contact-details ul li a {
+    color: #4b5563 !important;
+}
+
+.contact-form-content {
+    background: #ffffff !important;
+    border: 1px solid #e5e7eb !important;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.1) !important;
+}
+
+.contact-form-header h4 {
+    color: #111111 !important;
+}
+
+.close-cf {
+    color: #111111 !important;
+}
+
+select {
+    background: #ffffff !important;
+    color: #111111 !important;
+    border: 1px solid #d1d5db !important;
+}
+
+/* Hero Slider Titles */
+.fs-slider_align_title {
+    background: rgba(255, 255, 255, 0.94) !important;
+    padding: 30px !important;
+    border-radius: 8px !important;
+    box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.08) !important;
+    border: 1px solid #e5e7eb !important;
+}
+
+.fs-slider_align_title h2 span {
+    color: #008751 !important;
+}
+
+/* Numbers & Details */
+.section-number {
+    color: #111111 !important;
+}
+
+.section-number strong {
+    color: #008751 !important;
+}
+
+.inline-facts-wrap h6 {
+    color: #111111 !important;
+}
+
+.num {
+    color: #008751 !important;
+}
+
+.to-top-btn {
+    background-color: #f3f4f6 !important;
+    color: #111111 !important;
+    border: 1px solid #e5e7eb !important;
+}
+
+.to-top-btn i {
+    color: #111111 !important;
+}
+
+.color-bg {
+    background: #008751 !important;
+}
+
+.progress-bar {
+    background: #008751 !important;
+}
+
+/* ====================================================
+   Language Switcher Component (FR | EN)
+   ==================================================== */
+.djok-lang-switcher {
+    display: inline-flex;
+    align-items: center;
+    background: #ffffff;
+    border: 1px solid #e5e7eb;
+    border-radius: 20px;
+    padding: 3px 6px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+    font-weight: 700;
+    font-size: 11px;
+    letter-spacing: 0.5px;
+    user-select: none;
+    z-index: 25;
+}
+
+.djok-lang-switcher .lang-btn {
+    display: inline-block;
+    padding: 4px 8px;
+    border-radius: 14px;
+    color: #4b5563 !important;
+    text-decoration: none;
+    transition: all 0.2s ease;
+}
+
+.djok-lang-switcher .lang-btn:hover {
+    color: #1f2937 !important;
+}
+
+.djok-lang-switcher .lang-btn.active {
+    background: #1f2937 !important;
+    color: #ffffff !important;
+}
+
+.djok-lang-switcher .lang-sep {
+    color: #d1d5db;
+    margin: 0 2px;
+    font-size: 10px;
+}
+
+/* Sidebar language switcher position */
+.main-header .djok-lang-switcher {
+    margin: 14px auto;
+    display: flex;
+    justify-content: center;
+    width: fit-content;
+}
+
+/* Menu drawer language switcher — en bas du nav */
+.djok-menu-lang-wrap {
+    padding: 18px 35px 10px;
+    border-top: 1px solid #e5e7eb;
+    margin-top: 10px;
+}
+
+.nav-scroll-bar-wrap .djok-lang-switcher,
+.djok-menu-lang-wrap .djok-lang-switcher {
+    margin: 0;
+}
+
