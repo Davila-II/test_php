@@ -26,7 +26,7 @@ if (isset($_POST['action']) && $_POST['action'] === 'login') {
         header("Location: index.php?page=admin");
         exit;
     } else {
-        $authError = "Identifiants incorrects. Par défaut : admin / admin123";
+        $authError = "Identifiants incorrects.";
     }
 }
 

@@ -57,6 +57,10 @@ class Database {
             }
         }
 
+        if (getenv('VERCEL')) {
+            throw new RuntimeException('SUPABASE_DB_URL absente');
+        }
+
         // --- Local : SQLite (développement) ---
         $dbDir = __DIR__ . '/../data';
         if (!is_dir($dbDir)) {
