@@ -20,7 +20,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
         echo json_encode([
             'status' => 'success',
-            'message' => 'Merci pour votre inscription à la newsletter DjoKhouse SCI !'
+            'message' => 'Merci pour votre inscription à la newsletter DjoKhouse SARL !'
         ]);
     } catch (Exception $e) {
         echo json_encode([

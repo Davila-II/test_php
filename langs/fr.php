@@ -1,12 +1,12 @@
 <?php
 /**
- * Dictionnaire Français — DjoKhouse SCI
+ * Dictionnaire Français — DjoKhouse SARL
  */
 return [
     // Site Identity
-    'site_title' => 'DjoKhouse SCI — Un Camerounais, un terrain',
+    'site_title' => 'DjoKhouse SARL — Un Camerounais, un terrain',
     'slogan' => 'Un Camerounais, un terrain',
-    'meta_description' => 'DjoKhouse SCI — Bureau d\'étude topographique, urbanisme et acquisition de terrains au Cameroun.',
+    'meta_description' => 'DjoKhouse SARL — Bureau d\'étude topographique, urbanisme et acquisition de terrains au Cameroun.',
 
     // Navigation & General
     'nav_home' => 'Accueil',
@@ -45,8 +45,8 @@ return [
     // Home Sections
     'sec_pres_num' => '01. Présentation',
     'sec_about_title' => 'Qui sommes <strong>nous ?</strong>',
-    'sec_about_text' => 'DjoKhouse SCI est votre partenaire de confiance au Cameroun pour l’acquisition, la sécurisation foncière, les études topographiques et l’urbanisme. Du sol à la structure et de la conception à l’exécution, nous vous accompagnons dans vos projets dans le respect rigoureux des réglementations.',
-    'sec_about_subtitle' => 'DjoKhouse SCI est la concrétisation d’une triple volonté',
+    'sec_about_text' => 'DjoKhouse SARL est votre partenaire de confiance au Cameroun pour l’acquisition, la sécurisation foncière, les études topographiques et l’urbanisme. Du sol à la structure et de la conception à l’exécution, nous vous accompagnons dans vos projets dans le respect rigoureux des réglementations.',
+    'sec_about_subtitle' => 'DjoKhouse SARL est la concrétisation d’une triple volonté',
     'sec_about_p1' => 'Proposer un service d’excellence pour sécuriser l’accès à la propriété foncière à chaque citoyen.',
     'sec_about_p2' => 'Former une équipe pluridisciplinaire d’experts géomètres, topographes et juristes fonciers de premier plan.',
     'sec_about_p3' => 'Garantir des transactions transparentes avec titres fonciers authentiques et contrôlés.',
@@ -55,7 +55,7 @@ return [
     'sec_projects_subtitle' => 'Quelques-unes de nos réalisations et terrains disponibles',
 
     'sec_services_title' => 'Nos <strong>Services</strong>',
-    'sec_services_subtitle' => 'DjoKhouse SCI vous accompagne dans tous vos projets fonciers, topographiques et immobiliers au Cameroun.',
+    'sec_services_subtitle' => 'DjoKhouse SARL vous accompagne dans tous vos projets fonciers, topographiques et immobiliers au Cameroun.',
 
     'sec_testimonials_title' => 'Témoignages <strong>Clients</strong>',
     'sec_testimonials_subtitle' => 'Ce que disent nos propriétaires et investisseurs',
@@ -78,14 +78,14 @@ return [
     'prop_location' => 'Localisation',
     'prop_surface' => 'Superficie',
     'prop_inquire_title' => 'Ce bien vous intéresse ? Demandez une visite ou un devis',
-    'prop_inquire_desc' => 'Laissez vos coordonnées pour être mis en relation avec notre expert DjoKhouse SCI dédié à ce dossier.',
+    'prop_inquire_desc' => 'Laissez vos coordonnées pour être mis en relation avec notre expert DjoKhouse SARL dédié à ce dossier.',
     'prop_form_name' => 'Votre Nom *',
     'prop_form_phone' => 'Votre Téléphone / WhatsApp *',
     'prop_form_email' => 'Votre Adresse Email',
     'prop_form_details' => 'Précisez votre demande (visite du site, titre foncier, négociation...)',
 
     // Contact Page
-    'contact_header' => 'Coordonnées DjoKhouse SCI',
+    'contact_header' => 'Coordonnées DjoKhouse SARL',
     'contact_form_title' => 'Contactez-Nous',
     'contact_email_lbl' => 'Email',
     'contact_addr_lbl' => 'Adresse',
@@ -107,7 +107,7 @@ return [
 
     // Admin Panel
     'admin_title' => 'Administration',
-    'admin_sub' => 'Connexion à l\'espace de gestion DjoKhouse SCI',
+    'admin_sub' => 'Connexion à l\'espace de gestion DjoKhouse SARL',
     'admin_username' => 'Nom d\'utilisateur',
     'admin_password' => 'Mot de passe',
     'admin_login_btn' => 'Se connecter',

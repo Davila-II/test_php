@@ -1,6 +1,6 @@
 <?php
 /**
- * Internationalization (i18n) Engine for DjoKhouse SCI
+ * Internationalization (i18n) Engine for DjoKhouse SARL
  * Supports French (fr) & English (en)
  * Compatible Vercel serverless (utilise SessionManager)
  */

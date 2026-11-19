@@ -51,7 +51,7 @@
                                             <div class="row">
                                                 
                                                 <div class="col-md-12">
-                                                      <p> Faites confiance à DjoKhouse SCI pour tous travaux de topographie sur tout l'étendue du territoire camerounais. Nous proposons nos services pour :</p>
+                                                      <p> Faites confiance à DjoKhouse SARL pour tous travaux de topographie sur tout l'étendue du territoire camerounais. Nous proposons nos services pour :</p>
                                                         <ul>
                                                             
                                                              <li style="text-align:left">Conception et réalisation en génie civil (plans architecturaux, plans topographiques, etc.)</li>

@@ -51,7 +51,7 @@
                                             <div class="row">
                                                 
                                                 <div class="col-md-12">
-                                                      <p> Le bornage de terrain fait partie des prestations proposées par le bureau d'étude DjoKhouse SCI. Nous avons l’expérience et le savoir-faire requis pour cette tâche.Sollicitez nos services pour un bornage à l’amiable. Cela vous permet de connaître exactement la surface et les limites de votre propriété, tout en prévenant des problèmes de voisinage. Nous intervenons notamment :</p>
+                                                      <p> Le bornage de terrain fait partie des prestations proposées par le bureau d'étude DjoKhouse SARL. Nous avons l’expérience et le savoir-faire requis pour cette tâche.Sollicitez nos services pour un bornage à l’amiable. Cela vous permet de connaître exactement la surface et les limites de votre propriété, tout en prévenant des problèmes de voisinage. Nous intervenons notamment :</p>
                                                         <ul>
                                                             <li style="text-align:left">Avant des travaux de construction, surtout si le terrain est issu d’un lotissement</li>
                                                             <li style="text-align:left">Avant l’édification d’une clôture</li>

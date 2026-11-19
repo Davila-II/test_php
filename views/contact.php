@@ -30,7 +30,7 @@ if (empty($site_settings)) {
                             <div class="fixed-column-wrap-content">
                                 <div class="fixed-column-wrap_bg">
                                     <div class="map-container">
-                                        <div id="map-single" class="map" data-latlog="[4.0105092 , 9.699614]" data-popuptext="DjoKhouse SCI, Douala, Cameroun."></div>
+                                        <div id="map-single" class="map" data-latlog="[4.0105092 , 9.699614]" data-popuptext="DjoKhouse SARL, Douala, Cameroun."></div>
                                     </div>
                                     <div class="hero-scroll-down-notifer">
                                         <div class="scroll-down-wrap">

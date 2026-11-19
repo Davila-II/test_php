@@ -32,7 +32,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
         echo json_encode([
             'status' => 'success',
-            'message' => 'Votre demande a été enregistrée avec succès ! Notre conseiller DjoKhouse SCI vous contactera sous 24h.'
+            'message' => 'Votre demande a été enregistrée avec succès ! Notre conseiller DjoKhouse SARL vous contactera sous 24h.'
         ]);
     } catch (Exception $e) {
         echo json_encode([

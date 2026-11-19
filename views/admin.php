@@ -1,6 +1,6 @@
 <?php
 /**
- * Back-office d'administration DjoKhouse SCI
+ * Back-office d'administration DjoKhouse SARL
  */
 require_once __DIR__ . '/../models/Database.php';
 require_once __DIR__ . '/../models/SessionManager.php';
@@ -154,7 +154,7 @@ if ($isLoggedIn && $_SERVER['REQUEST_METHOD'] === 'POST') {
 
     // Update Site Settings
     if ($action === 'save_settings') {
-        $site_name     = trim($_POST['site_name'] ?? 'DjoKhouse SCI');
+        $site_name     = trim($_POST['site_name'] ?? 'DjoKhouse SARL');
         $slogan        = trim($_POST['slogan'] ?? '');
         $phone         = trim($_POST['phone'] ?? '');
         $phone2        = trim($_POST['phone2'] ?? '');
@@ -208,7 +208,7 @@ if ($isLoggedIn) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Administration — DjoKhouse SCI</title>
+    <title>Administration — DjoKhouse SARL</title>
     <link rel="shortcut icon" href="images/favicon.ico">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
@@ -337,7 +337,7 @@ if ($isLoggedIn) {
 <?php if (!$isLoggedIn): ?>
     <!-- Login Screen -->
     <div class="login-wrap">
-        <img src="images/logo.png" alt="DjoKhouse SCI">
+        <img src="images/logo.png" alt="DjoKhouse SARL">
         <div style="margin: 12px auto;"><?= i18n::renderSwitcher() ?></div>
         <h2><?= __("admin_title") ?></h2>
         <p><?= __("admin_sub") ?></p>
@@ -365,7 +365,7 @@ if ($isLoggedIn) {
     <header class="admin-header">
         <div class="brand">
             <img src="images/logo.png" alt="Logo">
-            <h1>DjoKhouse SCI &bull; <?= __("admin_title") ?></h1>
+            <h1>DjoKhouse SARL &bull; <?= __("admin_title") ?></h1>
         </div>
         <div class="nav-actions">
             <?= i18n::renderSwitcher() ?>

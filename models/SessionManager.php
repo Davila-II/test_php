@@ -1,6 +1,6 @@
 <?php
 /**
- * Session Manager pour DjoKhouse SCI
+ * Session Manager pour DjoKhouse SARL
  * 
  * Sur Vercel (serverless) : utilise des cookies JSON signés (HMAC-SHA256)
  * En local : utilise les sessions PHP standard

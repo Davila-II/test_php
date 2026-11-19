@@ -29,7 +29,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
         echo json_encode([
             'status' => 'success',
-            'message' => 'Merci ' . htmlspecialchars($name) . ' ! Votre message a bien été transmis à DjoKhouse SCI. Nous vous répondrons dans les plus brefs délais.'
+            'message' => 'Merci ' . htmlspecialchars($name) . ' ! Votre message a bien été transmis à DjoKhouse SARL. Nous vous répondrons dans les plus brefs délais.'
         ]);
     } catch (Exception $e) {
         echo json_encode([

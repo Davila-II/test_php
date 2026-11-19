@@ -14,7 +14,7 @@ $is_contact = ($current_ctrl === 'contact');
                     <!-- nav-holder-->
                     <div class="nav-holder but-hol">
                         <div class="nav-scroll-bar-wrap fl-wrap">
-                            <a href="home" class="ajax logo_menu"><img src="images/logo2.png" alt="logo DjoKhouse SCI"></a>
+                            <a href="home" class="ajax logo_menu"><img src="images/logo2.png" alt="logo DjoKhouse SARL"></a>
 
                             <div class="nav-container fl-wrap">
                                 <!-- nav -->

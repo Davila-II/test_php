@@ -1,6 +1,6 @@
 <?php
 /**
- * Database connection & ORM helper for DjoKhouse SCI
+ * Database connection & ORM helper for DjoKhouse SARL
  * 
  * Supporte :
  *  - PostgreSQL (Supabase) en production via SUPABASE_DB_URL
@@ -197,13 +197,13 @@ class Database {
                 VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
             ");
             $stmt->execute([
-                'DjoKhouse SCI',
+                'DjoKhouse SARL',
                 'Un Camerounais, un terrain',
                 '(+237) 696 052 390',
                 '(+237) 670 123 456',
                 'contact@djokhouse.cm',
                 'Douala, Cameroun',
-                'DjoKhouse SCI est votre partenaire de confiance au Cameroun pour l\'acquisition, la sécurisation foncière, les études topographiques et l\'urbanisme.',
+                'DjoKhouse SARL est votre partenaire de confiance au Cameroun pour l\'acquisition, la sécurisation foncière, les études topographiques et l\'urbanisme.',
                 'https://facebook.com',
                 'https://linkedin.com',
                 ''
@@ -250,8 +250,8 @@ class Database {
         $testiCount = $db->query("SELECT COUNT(*) FROM testimonials")->fetchColumn();
         if ($testiCount == 0) {
             $testimonials = [
-                ['Antoine Kamga', 'Propriétaire à Douala', 'images/avatar/user.png', 'Je remercie chaleureusement DjoKhouse SCI pour le suivi transparent et rigoureux lors de l\'acquisition de mon terrain !', 5],
-                ['Marie-Claire Ngo', 'Membre de la Diaspora (France)', 'images/avatar/user.png', 'DjoKhouse SCI a sécurisé mon achat depuis la France avec un titre foncier authentique. La promesse est tenue !', 5],
+                ['Antoine Kamga', 'Propriétaire à Douala', 'images/avatar/user.png', 'Je remercie chaleureusement DjoKhouse SARL pour le suivi transparent et rigoureux lors de l\'acquisition de mon terrain !', 5],
+                ['Marie-Claire Ngo', 'Membre de la Diaspora (France)', 'images/avatar/user.png', 'DjoKhouse SARL a sécurisé mon achat depuis la France avec un titre foncier authentique. La promesse est tenue !', 5],
                 ['Patrick Mbida', 'Promoteur Immobilier', 'images/avatar/user.png', 'La précision des levés topographiques et l\'efficacité pour le bornage m\'ont fait gagner un temps précieux.', 5],
             ];
             $stmt = $db->prepare("INSERT INTO testimonials (author, role, avatar, content, rating) VALUES (?, ?, ?, ?, ?)");

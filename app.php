@@ -70,7 +70,7 @@
 
         case 'accueil':
         case 'home': {
-            $page_title = "Accueil — " . ($site_settings['site_name'] ?? 'DjoKhouse SCI');
+            $page_title = "Accueil — " . ($site_settings['site_name'] ?? 'DjoKhouse SARL');
             include("views/header.php");
             include("views/menu.php");
             include("views/home.php");
@@ -79,7 +79,7 @@
         }
 
         case 'about': {
-            $page_title = "À Propos — " . ($site_settings['site_name'] ?? 'DjoKhouse SCI');
+            $page_title = "À Propos — " . ($site_settings['site_name'] ?? 'DjoKhouse SARL');
             include("views/header.php");
             include("views/menu.php");
             include("views/about.php");
@@ -88,7 +88,7 @@
         }
 
         case 'portfolio': {
-            $page_title = "Nos Projets & Terrains — " . ($site_settings['site_name'] ?? 'DjoKhouse SCI');
+            $page_title = "Nos Projets & Terrains — " . ($site_settings['site_name'] ?? 'DjoKhouse SARL');
             include("views/header.php");
             include("views/menu.php");
             include("views/portfolio.php");
@@ -97,7 +97,7 @@
         }
 
         case 'projetdetail': {
-            $page_title = "Détail du projet — " . ($site_settings['site_name'] ?? 'DjoKhouse SCI');
+            $page_title = "Détail du projet — " . ($site_settings['site_name'] ?? 'DjoKhouse SARL');
             include("views/header.php");
             include("views/menu.php");
             include("views/projetdetail.php");
@@ -203,7 +203,7 @@
         }
 
         default: {
-            $page_title = "Accueil — " . ($site_settings['site_name'] ?? 'DjoKhouse SCI');
+            $page_title = "Accueil — " . ($site_settings['site_name'] ?? 'DjoKhouse SARL');
             include("views/header.php");
             include("views/menu.php");
             include("views/home.php");

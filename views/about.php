@@ -41,7 +41,7 @@
                                     <div class="container">
                                         <div class="section-title fl-wrap">
                                             <h2>Une ingénierie adaptée  à la maison individuelle</h2>
-                                            <p style="max-width:600px !important">DjoKhouse SCI est un bureau d'étude topographique et immobilier de sol et de structure dédié à l'habitat individuel, implanté dans la ville de Douala au Cameroun. Du sol à la structure et de la conception à l'exécution, nous vous accompagnons et vous conseillons dans vos projets de construction ou de rénovation. Nous assurons nos prestations dans le respect de la réglementation  et des normes en vigueur.  </p>
+                                            <p style="max-width:600px !important">DjoKhouse SARL est un bureau d'étude topographique et immobilier de sol et de structure dédié à l'habitat individuel, implanté dans la ville de Douala au Cameroun. Du sol à la structure et de la conception à l'exécution, nous vous accompagnons et vous conseillons dans vos projets de construction ou de rénovation. Nous assurons nos prestations dans le respect de la réglementation  et des normes en vigueur.  </p>
                                             <div class="sec-title_dec"></div>
                                         </div>
                                         <div class="row">
@@ -52,11 +52,11 @@
                                             </div>
                                             <div class="col-md-7">
                                                 <div class="text-block fl-wrap">
-                                                    <h4 class="text-block_subtitle">DjoKhouse SCI est la<br> concrétisation d’une triple volonté</h4>
-                                                    <p>Proposer un service complet, efficace et original correspondant au métier de DjoKhouse SCI et à son rôle de conseil dans les multiples domaines de sa compétence.</p>
+                                                    <h4 class="text-block_subtitle">DjoKhouse SARL est la<br> concrétisation d’une triple volonté</h4>
+                                                    <p>Proposer un service complet, efficace et original correspondant au métier de DjoKhouse SARL et à son rôle de conseil dans les multiples domaines de sa compétence.</p>
                                                     <p>Former une équipe pluridisciplinaire expérimentée appliquant des méthodes évolutives (expérience traditionnelle complétée par les nouvelles technologies et l’acquisition de nouvelles compétences).</p>
                                                     <p>Adopter une organisation administrative et fonctionnelle propre à répondre à tous les besoins des clients publics ou privés, locaux, nationaux ou internationaux.</p>
-                                                    <p>Grâce à cette organisation, DjoKhouse SCI est aujourd’hui à même d’intervenir ponctuellement ou globalement sur n’importe quel chantier, quelles que soient les techniques à utiliser.  </p>
+                                                    <p>Grâce à cette organisation, DjoKhouse SARL est aujourd’hui à même d’intervenir ponctuellement ou globalement sur n’importe quel chantier, quelles que soient les techniques à utiliser.  </p>
                                                     
                                                     <a href="#sec2" class="btn float-btn custom-scroll-link">Nos valeurs</a>
                                                 </div>

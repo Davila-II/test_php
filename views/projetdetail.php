@@ -84,7 +84,7 @@ if ($isEn) {
                                             <div class="clearfix"></div>
                                             
                                             <div style="font-size:15px; line-height:1.8; color:#374151; margin:20px 0;">
-                                                <?= nl2br(htmlspecialchars($project['description'] ?? 'Contactez DjoKhouse SCI pour obtenir le dossier complet, les coordonnées géographiques et organiser une visite sur le terrain.')) ?>
+                                                <?= nl2br(htmlspecialchars($project['description'] ?? 'Contactez DjoKhouse SARL pour obtenir le dossier complet, les coordonnées géographiques et organiser une visite sur le terrain.')) ?>
                                             </div>
 
                                             <div class="section-separator fl-wrap" style="margin: 30px 0;"><span></span></div>

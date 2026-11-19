@@ -1,12 +1,12 @@
 <?php
 /**
- * English Dictionary — DjoKhouse SCI
+ * English Dictionary — DjoKhouse SARL
  */
 return [
     // Site Identity
-    'site_title' => 'DjoKhouse SCI — One Cameroonian, One Land',
+    'site_title' => 'DjoKhouse SARL — One Cameroonian, One Land',
     'slogan' => 'One Cameroonian, One Land',
-    'meta_description' => 'DjoKhouse SCI — Topographical survey bureau, urban planning and secure land acquisition in Cameroon.',
+    'meta_description' => 'DjoKhouse SARL — Topographical survey bureau, urban planning and secure land acquisition in Cameroon.',
 
     // Navigation & General
     'nav_home' => 'Home',
@@ -45,8 +45,8 @@ return [
     // Home Sections
     'sec_pres_num' => '01. Presentation',
     'sec_about_title' => 'Who are <strong>we?</strong>',
-    'sec_about_text' => 'DjoKhouse SCI is your trusted partner in Cameroon for land acquisition, title security, topographical studies and urban planning. From soil to structure and design to execution, we support your projects in full compliance with official regulations.',
-    'sec_about_subtitle' => 'DjoKhouse SCI embodies a threefold commitment',
+    'sec_about_text' => 'DjoKhouse SARL is your trusted partner in Cameroon for land acquisition, title security, topographical studies and urban planning. From soil to structure and design to execution, we support your projects in full compliance with official regulations.',
+    'sec_about_subtitle' => 'DjoKhouse SARL embodies a threefold commitment',
     'sec_about_p1' => 'Providing premium services to secure land ownership for every citizen.',
     'sec_about_p2' => 'Building a multidisciplinary team of elite land surveyors, topographers, and legal advisers.',
     'sec_about_p3' => 'Guaranteeing transparent transactions with certified, authentic land titles.',
@@ -55,7 +55,7 @@ return [
     'sec_projects_subtitle' => 'A selection of our recent real estate and land opportunities',
 
     'sec_services_title' => 'Our <strong>Services</strong>',
-    'sec_services_subtitle' => 'DjoKhouse SCI assists you in all your land, topographical and real estate endeavors in Cameroon.',
+    'sec_services_subtitle' => 'DjoKhouse SARL assists you in all your land, topographical and real estate endeavors in Cameroon.',
 
     'sec_testimonials_title' => 'Client <strong>Testimonials</strong>',
     'sec_testimonials_subtitle' => 'What our landowners and diaspora investors say about us',
@@ -78,14 +78,14 @@ return [
     'prop_location' => 'Location',
     'prop_surface' => 'Area',
     'prop_inquire_title' => 'Interested in this property? Request a tour or a quote',
-    'prop_inquire_desc' => 'Leave your contact information to be connected with our DjoKhouse SCI advisor dedicated to this property.',
+    'prop_inquire_desc' => 'Leave your contact information to be connected with our DjoKhouse SARL advisor dedicated to this property.',
     'prop_form_name' => 'Your Full Name *',
     'prop_form_phone' => 'Your Phone / WhatsApp *',
     'prop_form_email' => 'Your Email Address',
     'prop_form_details' => 'Describe your inquiry (site visit, land title inspection, negotiation...)',
 
     // Contact Page
-    'contact_header' => 'DjoKhouse SCI Contact Details',
+    'contact_header' => 'DjoKhouse SARL Contact Details',
     'contact_form_title' => 'Contact Us',
     'contact_email_lbl' => 'Email',
     'contact_addr_lbl' => 'Address',
@@ -107,7 +107,7 @@ return [
 
     // Admin Panel
     'admin_title' => 'Administration',
-    'admin_sub' => 'Log in to DjoKhouse SCI Management Portal',
+    'admin_sub' => 'Log in to DjoKhouse SARL Management Portal',
     'admin_username' => 'Username',
     'admin_password' => 'Password',
     'admin_login_btn' => 'Sign In',

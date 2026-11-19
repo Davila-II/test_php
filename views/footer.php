@@ -5,7 +5,7 @@ if (empty($site_settings)) {
 }
 $isEn = i18n::isEn();
 $sloganDisplay = $isEn ? __('slogan') : ($site_settings['slogan'] ?? 'Un Camerounais, un terrain');
-$aboutDisplay = $isEn ? __('sec_about_text') : ($site_settings['about_summary'] ?? 'DjoKhouse SCI — Un Camerounais, un terrain. Votre partenaire pour la sécurisation foncière, le bornage et l’urbanisme.');
+$aboutDisplay = $isEn ? __('sec_about_text') : ($site_settings['about_summary'] ?? 'DjoKhouse SARL — Un Camerounais, un terrain. Votre partenaire pour la sécurisation foncière, le bornage et l’urbanisme.');
 ?>
   <!-- footer -->
                     <div class="height-emulator fl-wrap"></div>
@@ -19,7 +19,7 @@ $aboutDisplay = $isEn ? __('sec_about_text') : ($site_settings['about_summary'] 
                                 <div class="row">
                                     <div class="col-md-4">
                                         <div class="footer-logo">
-                                            <img src="images/logo2.png" style="max-height:80px; width:auto;" alt="logo DjoKhouse SCI">
+                                            <img src="images/logo2.png" style="max-height:80px; width:auto;" alt="logo DjoKhouse SARL">
                                         </div>
                                         <div class="footer_text footer-box fl-wrap">
                                             <p><?= htmlspecialchars($aboutDisplay) ?></p>

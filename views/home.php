@@ -10,7 +10,7 @@
                                         <div class="swiper-slide"  >
                                             <div class="fs-slider-item fl-wrap">
                                                 <div class="fs-slider_align_title">
-                                                    <div class="hhw_header" style="display:none">Bienvenue sur le site de DjoKhouse SCI</div>
+                                                    <div class="hhw_header" style="display:none">Bienvenue sur le site de DjoKhouse SARL</div>
                                                     <h2><a href="#sec1" class="custom-scroll-link"><?= __("hero_slide1_title") ?></a></h2>
                                                     <p  style="display:none">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas in pulvinar neque. Nulla finibus lobortis pulvinar. </p>
                                                     <div class="clearfix"></div>
@@ -183,7 +183,7 @@
                                     <div class="container">
                                         <div class="section-title fl-wrap">
                                             <h2><?= __("sec_about_title") ?></h2>
-                                            <p style="max-width:600px !important">DjoKhouse SCI est un bureau d'étude topographique et immobilier de sol et de structure dédié à l'habitat individuel, implanté dans la ville de Douala au Cameroun. Du sol à la structure et de la conception à l'exécution, nous vous accompagnons et vous conseillons dans vos projets de construction ou de rénovation. Nous assurons nos prestations dans le respect de la réglementation  et des normes en vigueur.  </p>
+                                            <p style="max-width:600px !important">DjoKhouse SARL est un bureau d'étude topographique et immobilier de sol et de structure dédié à l'habitat individuel, implanté dans la ville de Douala au Cameroun. Du sol à la structure et de la conception à l'exécution, nous vous accompagnons et vous conseillons dans vos projets de construction ou de rénovation. Nous assurons nos prestations dans le respect de la réglementation  et des normes en vigueur.  </p>
                                             <div class="sec-title_dec"></div>
                                         </div>
                                         <div class="row">
@@ -195,10 +195,10 @@
                                             <div class="col-md-7">
                                                 <div class="text-block fl-wrap">
                                                     <h4 class="text-block_subtitle"><?= __("sec_about_subtitle") ?></h4>
-                                                    <p>Proposer un service complet, efficace et original correspondant au métier de DjoKhouse SCI et à son rôle de conseil dans les multiples domaines de sa compétence.</p>
+                                                    <p>Proposer un service complet, efficace et original correspondant au métier de DjoKhouse SARL et à son rôle de conseil dans les multiples domaines de sa compétence.</p>
                                                     <p>Former une équipe pluridisciplinaire expérimentée appliquant des méthodes évolutives (expérience traditionnelle complétée par les nouvelles technologies et l’acquisition de nouvelles compétences).</p>
                                                     <p>Adopter une organisation administrative et fonctionnelle propre à répondre à tous les besoins des clients publics ou privés, locaux, nationaux ou internationaux.</p>
-                                                    <p>Grâce à cette organisation, DjoKhouse SCI est aujourd’hui à même d’intervenir ponctuellement ou globalement sur n’importe quel chantier, quelles que soient les techniques à utiliser.  </p>
+                                                    <p>Grâce à cette organisation, DjoKhouse SARL est aujourd’hui à même d’intervenir ponctuellement ou globalement sur n’importe quel chantier, quelles que soient les techniques à utiliser.  </p>
                                                     
                                                     <a href="about" class="btn float-btn custom-scroll-link"><?= __("btn_more") ?></a>
                                                 </div>
@@ -299,7 +299,7 @@
                                                     </div>
                                                     <div class="serv-text">
                                                         <h4><a href="" class="ajax">Urbanisme</a></h4>
-                                                        <p> Sollicitez les services de DjoKhouse SCI pour des projets relatifs à l’urbanisme. Nous sommes en mesure d’intervenir dans différents domaines.</p>
+                                                        <p> Sollicitez les services de DjoKhouse SARL pour des projets relatifs à l’urbanisme. Nous sommes en mesure d’intervenir dans différents domaines.</p>
                                                         <ul>
                                                             <li>Création de lotissement</li>
                                                             <li>Aménagement sur terrain rural / urbain</li>
@@ -319,7 +319,7 @@
                                                     </div>
                                                     <div class="serv-text">
                                                         <h4><a href="" class="ajax">Topographie</a></h4>
-                                                        <p> Faites confiance à DjoKhouse SCI pour tous travaux de topographie sur tout l'étendue du territoire camerounais. Nous proposons nos services pour :  </p>
+                                                        <p> Faites confiance à DjoKhouse SARL pour tous travaux de topographie sur tout l'étendue du territoire camerounais. Nous proposons nos services pour :  </p>
                                                         <ul>
                                                             <li>Conception et réalisation en génie civil (plans architecturaux, plans topographiques, etc.)</li>
                                                             <li>Suivi et contrôles des travaux topographiques et bâtiments (BTP)</li>
@@ -340,7 +340,7 @@
                                                     </div>
                                                     <div class="serv-text">
                                                         <h4><a href="" class="ajax">Bornage</a></h4>
-                                                        <p> Le bornage de terrain fait partie des prestations proposées par le bureau d'étude DjoKhouse SCI. Nous avons l’expérience et le savoir-faire requis pour cette tâche.Sollicitez nos services pour un bornage à l’amiable. Cela vous permet de connaître exactement la surface et les limites de votre propriété, tout en prévenant des problèmes de voisinage. Nous intervenons notamment :</p>
+                                                        <p> Le bornage de terrain fait partie des prestations proposées par le bureau d'étude DjoKhouse SARL. Nous avons l’expérience et le savoir-faire requis pour cette tâche.Sollicitez nos services pour un bornage à l’amiable. Cela vous permet de connaître exactement la surface et les limites de votre propriété, tout en prévenant des problèmes de voisinage. Nous intervenons notamment :</p>
                                                         <ul>
                                                             <li>Avant des travaux de construction, surtout si le terrain est issu d’un lotissement</li>
                                                             <li>Avant l’édification d’une clôture</li>
@@ -360,7 +360,7 @@
                                                     </div>
                                                     <div class="serv-text">
                                                         <h4><a href="decoration" class="ajax">Prestations de services</a></h4>
-                                                        <p> Avec son équipe de professionnels qualifiés, DjoKhouse SCI répond favorablement aux demandes des particuliers, des entreprises et des administrations. Nous sommes à votre service pour la réalisation de divers travaux dans divers domaines à savoir : </p>
+                                                        <p> Avec son équipe de professionnels qualifiés, DjoKhouse SARL répond favorablement aux demandes des particuliers, des entreprises et des administrations. Nous sommes à votre service pour la réalisation de divers travaux dans divers domaines à savoir : </p>
                                                         <ul>
                                                             <li>BTP</li>
                                                             <li>Design et décoration d'intérieur</li>
@@ -387,7 +387,7 @@
                                             <div class="col-md-6">
                                                 <div class="video-promo-text fl-wrap mar-top">
                                                     <h3>Notre vidéo de  <strong>Présentation</strong></h3>
-                                                    <p>Tout savoir sur DjoKhouse SCI et ses activités</p>
+                                                    <p>Tout savoir sur DjoKhouse SARL et ses activités</p>
                                                     <a href="#" class="btn float-btn   "><span>Notre chaine youtube</span></a>
                                                 </div>
                                             </div>

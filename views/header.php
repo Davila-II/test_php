@@ -6,7 +6,7 @@
         <title><?= !empty($page_title) ? htmlspecialchars($page_title) : __('site_title') ?></title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
         <meta name="robots" content="index, follow"/>
-        <meta name="keywords" content="DjoKhouse, SCI, immobilier, terrain, Cameroun, topographie, urbanisme, land, real estate, Douala"/>
+        <meta name="keywords" content="DjoKhouse, SARL, immobilier, terrain, Cameroun, topographie, urbanisme, land, real estate, Douala"/>
         <meta name="description" content="<?= __('meta_description') ?>"/>
         <!--=============== css  ===============-->
         <link type="text/css" rel="stylesheet" href="css/plugins.css">
@@ -29,7 +29,7 @@
         <div id="main">
             <!-- main-header-->
             <header class="main-header">
-                <a href="home" class="logo-holder ajax"><img src="images/logo.png" style="height:75px !important; width:auto !important; padding:5px !important;" alt="logo DjoKhouse SCI"></a>
+                <a href="home" class="logo-holder ajax"><img src="images/logo.png" style="height:75px !important; width:auto !important; padding:5px !important;" alt="logo DjoKhouse SARL"></a>
                 <!-- nav-button-wrap-->
                 <div class="nav-button but-hol">
                     <span class="nos"></span>

@@ -51,7 +51,7 @@
                                             <div class="row">
                                                 
                                                 <div class="col-md-12">
-                                                      <p> Avec son équipe de professionnels qualifiés, DjoKhouse SCI répond favorablement aux demandes des particuliers, des entreprises et des administrations. Nous sommes à votre service pour la réalisation de divers travaux dans divers domaines à savoir :</p>
+                                                      <p> Avec son équipe de professionnels qualifiés, DjoKhouse SARL répond favorablement aux demandes des particuliers, des entreprises et des administrations. Nous sommes à votre service pour la réalisation de divers travaux dans divers domaines à savoir :</p>
                                                         <ul>
                                                             
                                                              <li style="text-align:left">BTP</li>

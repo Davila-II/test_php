@@ -1,5 +1,5 @@
 /* ====================================================
-   DjoKhouse SCI - Light Theme (Thème Fond Blanc)
+   DjoKhouse SARL - Light Theme (Thème Fond Blanc)
    ==================================================== */
 
 /* Global backgrounds & text */
@@ -363,21 +363,84 @@ nav.nav-inner {
     color: #ffffff !important;
 }
 
-/* Footer styling — position relative pour éviter tout débordement latéral */
+/* Top Header — Noir élégant au lieu du gris */
+.top-header {
+    background: #111111 !important;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08) !important;
+}
+
+.top-header span,
+.top-header a {
+    color: rgba(255, 255, 255, 0.75) !important;
+}
+
+.top-header a:hover {
+    color: #008751 !important;
+}
+
+/* Slider Bottom Control Bar — Noir élégant au lieu du gris */
+.hero-slider_details_wrap,
+.hero-slider_control-wrap,
+.start-btn,
+.hsc_cw,
+.hsc_cw2,
+.slide-progress-wrap,
+.spw_carousel {
+    background: #111111 !important;
+}
+
+.hero-slider_details_wrap:before {
+    background: #0a0a0a !important;
+}
+
+.start-btn {
+    border-left: 1px solid rgba(255, 255, 255, 0.08) !important;
+}
+
+/* Inline Facts / Stats Container — Fond noir épuré */
+.inline-facts-container {
+    background: #111111 !important;
+    border-top: 1px solid rgba(255, 255, 255, 0.06) !important;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.06) !important;
+}
+
+.inline-facts-wrap h6 {
+    color: #ffffff !important;
+}
+
+/* Footer styling — Fond noir premium, ancré sans aucun vide */
 .main-footer {
-    background: #f9fafb !important;
-    border-top: 1px solid #e5e7eb !important;
-    position: relative !important;
-    float: left !important;
-    width: 100% !important;
-    left: 0 !important;
+    background: #111111 !important;
+    border-top: none !important;
+    position: fixed !important;
+    bottom: 0 !important;
+    left: 90px !important;
+    right: 0 !important;
+    width: auto !important;
+    float: none !important;
     clear: both !important;
-    z-index: 50 !important;
+    z-index: 4 !important;
 }
 
 .height-emulator {
-    display: none !important;
-    height: 0 !important;
+    display: block !important;
+    z-index: 1 !important;
+}
+
+@media only screen and (max-width: 1064px) {
+    .main-footer {
+        position: relative !important;
+        left: 0 !important;
+        right: 0 !important;
+        width: 100% !important;
+        bottom: auto !important;
+        z-index: 50 !important;
+    }
+
+    .height-emulator {
+        display: none !important;
+        height: 0 !important;
+    }
 }
 
 /* Service Hub Page — Hero banner + contenu pleine largeur */
@@ -405,44 +468,78 @@ nav.nav-inner {
 }
 
 .main-footer:before {
-    background: #f3f4f6 !important;
+    background: #0d0d0d !important;
 }
 
 .footer-decor canvas {
-    opacity: 0.12 !important;
+    opacity: 0.06 !important;
 }
 
 .footer-header {
-    color: #111111 !important;
+    color: #ffffff !important;
 }
 
 .footer-header:before {
-    background: #008751 !important;
+    background: rgba(255,255,255,0.15) !important;
 }
 
 .footer-contacts li span {
-    color: #111111 !important;
+    color: rgba(255,255,255,0.5) !important;
 }
 
 .footer-contacts li a {
-    color: #4b5563 !important;
+    color: rgba(255,255,255,0.85) !important;
 }
 
 .footer-contacts li a:hover {
     color: #008751 !important;
 }
 
-.subbfooter {
-    background: #f3f4f6 !important;
-    border-top: 1px solid #e5e7eb !important;
+.footer_text p,
+.footer-box p {
+    color: rgba(255,255,255,0.65) !important;
 }
 
-.policy-box span {
-    color: #6b7280 !important;
+.footer_text:before {
+    background: rgba(255,255,255,0.15) !important;
+}
+
+.subbfooter {
+    background: #0d0d0d !important;
+    border-top: 1px solid rgba(255,255,255,0.08) !important;
+}
+
+.policy-box span,
+.policy-box a {
+    color: rgba(255,255,255,0.45) !important;
+}
+
+.policy-box a:hover {
+    color: #008751 !important;
 }
 
 .footer-solcial li a {
-    color: #374151 !important;
+    color: rgba(255,255,255,0.6) !important;
+}
+
+.footer-solcial li a:hover {
+    color: #ffffff !important;
+}
+
+/* Newsletter form in footer — dark theme adaptation */
+.main-footer .subcribe-form .enteremail {
+    background: rgba(255,255,255,0.08) !important;
+    border: 1px solid rgba(255,255,255,0.2) !important;
+    color: #ffffff !important;
+}
+
+.main-footer .subcribe-form .enteremail::placeholder {
+    color: rgba(255,255,255,0.4) !important;
+}
+
+.main-footer .subcribe-form .enteremail:focus {
+    border-color: #008751 !important;
+    background: rgba(255,255,255,0.12) !important;
 }
 
 /* Forms, Inputs & Buttons */

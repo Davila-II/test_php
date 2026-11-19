@@ -1,6 +1,6 @@
 <?php
 /**
- * Fonctions utilitaires globales pour DjoKhouse SCI
+ * Fonctions utilitaires globales pour DjoKhouse SARL
  */
 
 /**

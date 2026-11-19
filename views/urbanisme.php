@@ -51,7 +51,7 @@
                                             <div class="row">
                                                 
                                                 <div class="col-md-12">
-                                                      <p> Sollicitez les services de DjoKhouse SCI pour des projets relatifs à l’urbanisme. Nous sommes en mesure d’intervenir dans différents domaines.</p>
+                                                      <p> Sollicitez les services de DjoKhouse SARL pour des projets relatifs à l’urbanisme. Nous sommes en mesure d’intervenir dans différents domaines.</p>
                                                         <ul>
                                                             
                                                           <li style="text-align:left">BTP</li>
