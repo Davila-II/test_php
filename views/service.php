@@ -56,43 +56,23 @@ $serviceList = [
 
 <!-- content-->
 <div class="content service-page-content">
-    <!--fixed-column-wrap-->
-    <div class="fixed-column-wrap init_fx-column">
-        <!--fixed-column-wrap-content-->
-        <div class="fixed-column-wrap-content">
-            <div class="fixed-column-wrap_bg">
-                <div class="bg" data-bg="images/bg/2.jpg"></div>
-                <div class="overlay"></div>
-                <div class="fixed-column-dec"></div>
-            </div>
-            <!--fixed-column-wrap_title-->
-            <div class="fixed-column-wrap_title">
-                <h2 style="color:#ffffff !important;"><span style="color:#ffffff !important;"><?= $pageTitleDisplay ?></span></h2>
-            </div>
-            <!--fixed-column-wrap_title end-->
-            <div class="fwc-dec fwc-dec_top"></div>
-            <div class="fwc-dec fwc-dec_right"></div>
-            <div class="fixed-column-wrap_dec"></div>
+    <!-- Header Banner -->
+    <div class="service-hero-wrap fl-wrap" style="position:relative; height:240px; overflow:hidden; background:#1a1a1a;">
+        <div class="bg" data-bg="images/bg/2.jpg" style="position:absolute; top:0; left:0; width:100%; height:100%; background-size:cover; background-position:center; background-image:url('images/bg/2.jpg');"></div>
+        <div class="overlay" style="position:absolute; top:0; left:0; width:100%; height:100%; background:rgba(17,17,17,0.65);"></div>
+        <div class="container" style="position:relative; z-index:5; height:100%; display:flex; flex-direction:column; justify-content:center;">
+            <h1 style="color:#ffffff !important; font-size:34px; font-weight:800; text-transform:uppercase; letter-spacing:2px; margin:0;"><?= $pageTitleDisplay ?></h1>
+            <p style="color:rgba(255,255,255,0.85) !important; font-size:14px; margin:10px 0 0 0; max-width:680px;"><?= $pageSubtitle ?></p>
         </div>
-        <!--fixed-column-wrap-content end-->
     </div>
-    <!--fixed-column-wrap end-->
     
     <!--column-wrap--> 
-    <div class="column-wrap">
+    <div class="column-wrap service-column-wrap" style="width:100% !important; float:none !important;">
         <!--column-wrap-container -->   
-        <div class="column-wrap-container white-bg fl-wrap single_cwc">
-            <div class="col-wc_dec"></div>
-            
+        <div class="column-wrap-container white-bg fl-wrap single_cwc" style="padding:0 !important;">
             <!--section--> 
-            <section id="sec1" class="scroll-con-sec" style="padding: 60px 0 30px;">
+            <section id="sec1" class="scroll-con-sec" style="padding: 40px 0 30px;">
                 <div class="container">
-                    <div class="section-title fl-wrap">
-                        <h2><?= $pageTitleDisplay ?></h2>
-                        <p style="max-width:700px !important"><?= $pageSubtitle ?></p>
-                        <div class="sec-title_dec"></div>
-                    </div>
-
                     <div class="row">
                         <?php foreach ($serviceList as $s): ?>
                         <div class="col-md-6" style="margin-bottom: 35px;">

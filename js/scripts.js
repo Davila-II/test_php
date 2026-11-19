@@ -1255,6 +1255,38 @@ function initPelzari() {
     $("#menu a.ajax").on("click", function () {
         hideMenu();
     });
+
+    // Update active link (act-link) on AJAX page transitions (Kool CTB)
+    $(document).on("ksctbCallback", function () {
+        var currentPage = window.location.pathname.replace(/^\//, "").split("/").pop() || "home";
+        if (!currentPage || currentPage === "" || currentPage === "index.php") currentPage = "home";
+        $("#menu a.ajax").removeClass("act-link");
+        var matched = $("#menu a.ajax[href='" + currentPage + "']");
+        if (matched.length) {
+            matched.addClass("act-link");
+        } else {
+            var subPages = ["conseils", "urbanisme", "topographie", "bornage", "prestation", "service", "services"];
+            if (subPages.indexOf(currentPage) !== -1) {
+                $("#menu a.ajax[href='service']").addClass("act-link");
+            }
+        }
+    });
+
+    // Touch-friendly submenu toggle on mobile / tablet
+    $(document).on("click", ".menu-item-has-children > a", function (e) {
+        if ($(window).width() < 1025) {
+            var href = $(this).attr("href") || "";
+            if (href === "service") {
+                var $li = $(this).closest(".menu-item-has-children");
+                if (!$li.hasClass("touch-open")) {
+                    e.preventDefault();
+                    $li.addClass("touch-open");
+                } else {
+                    $li.removeClass("touch-open");
+                }
+            }
+        }
+    });
     $(".nav-scroll-bar-wrap").niceScroll({
         cursorwidth: "0px",
         cursorborder: "none",
