@@ -8,7 +8,6 @@ $sloganDisplay = $isEn ? __('slogan') : ($site_settings['slogan'] ?? 'Un Camerou
 $aboutDisplay = $isEn ? __('sec_about_text') : ($site_settings['about_summary'] ?? 'DjoKhouse SARL — Un Camerounais, un terrain. Votre partenaire pour la sécurisation foncière, le bornage et l’urbanisme.');
 ?>
   <!-- footer -->
-                    <div class="height-emulator fl-wrap"></div>
                     <footer class="main-footer">
                         <div class="container">
                             <div class="footer-decor">

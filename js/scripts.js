@@ -838,7 +838,7 @@ function initPelzari() {
             height: $(".hero-slider-img").outerHeight(true)
         });
         $(".height-emulator").css({
-            height: $(".main-footer").outerHeight(true)
+            height: 0
         });
         $(".horizontal-grid-wrap").css({
             height: $(".hor-content_padd").outerHeight(true)

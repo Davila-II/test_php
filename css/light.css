@@ -408,39 +408,45 @@ nav.nav-inner {
     color: #ffffff !important;
 }
 
-/* Footer styling — Fond noir premium, ancré sans aucun vide */
+/* Footer styling — Fond noir, défilement naturel avec la page */
 .main-footer {
     background: #111111 !important;
     border-top: none !important;
-    position: fixed !important;
-    bottom: 0 !important;
-    left: 90px !important;
-    right: 0 !important;
-    width: auto !important;
-    float: none !important;
+    position: relative !important;
+    float: left !important;
+    width: 100% !important;
+    left: 0 !important;
+    right: auto !important;
+    bottom: auto !important;
     clear: both !important;
-    z-index: 4 !important;
+    z-index: 50 !important;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+    padding-bottom: 0 !important;
+    overflow: hidden !important; /* Empêche les canvas/décors de dépasser sous le footer */
+}
+
+/* Supprime le canvas de 900px qui créait 241px de vide blanc sous le footer */
+.footer-decor {
+    display: none !important;
+    height: 0 !important;
 }
 
 .height-emulator {
-    display: block !important;
-    z-index: 1 !important;
+    display: none !important;
+    height: 0 !important;
+    visibility: hidden !important;
 }
 
-@media only screen and (max-width: 1064px) {
-    .main-footer {
-        position: relative !important;
-        left: 0 !important;
-        right: 0 !important;
-        width: 100% !important;
-        bottom: auto !important;
-        z-index: 50 !important;
-    }
+.limit-box {
+    height: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
 
-    .height-emulator {
-        display: none !important;
-        height: 0 !important;
-    }
+/* Assure que sur toute page courte, le footer est au moins tout en bas */
+.content {
+    min-height: calc(100vh - 490px) !important;
 }
 
 /* Service Hub Page — Hero banner + contenu pleine largeur */
