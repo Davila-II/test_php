@@ -1,4 +1,12 @@
 <?php
+    // Support du serveur interne PHP (php -S) : sert les fichiers statiques directement
+    if (php_sapi_name() === 'cli-server') {
+        $filePath = __DIR__ . parse_url($_SERVER['REQUEST_URI'] ?? '', PHP_URL_PATH);
+        if (is_file($filePath)) {
+            return false;
+        }
+    }
+
     if (!headers_sent()) {
         header("Cache-Control: no-store, no-cache, must-revalidate");
         header("Cache-Control: post-check=0, pre-check=0", false);

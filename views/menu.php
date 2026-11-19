@@ -12,24 +12,21 @@
                                 <nav class="nav-inner" id="menu">
                                     <ul>
                                         <li>
-                                            <a href="home" class="act-link"><?= __('nav_home') ?></a>
+                                            <a href="home" class="ajax act-link"><?= __('nav_home') ?></a>
                                         </li>
                                         <li><a href="about" class="ajax"><?= __('nav_about') ?></a></li>
-                                        <li><a href="portfolio" class="ajax"><?= __('nav_portfolio') ?></a></li>
-                                        <li>
-                                            <a href="#"><?= __('nav_services') ?></a>
-                                            <!--level 2 -->
-                                            <ul>
+                                        <li class="menu-item-has-children">
+                                            <a href="service" class="ajax"><?= __('nav_services') ?></a>
+                                            <ul class="sub-menu-list">
                                                 <li><a href="conseils" class="ajax"><?= __('nav_conseils') ?></a></li>
                                                 <li><a href="urbanisme" class="ajax"><?= __('nav_urbanisme') ?></a></li>
                                                 <li><a href="topographie" class="ajax"><?= __('nav_topographie') ?></a></li>
                                                 <li><a href="bornage" class="ajax"><?= __('nav_bornage') ?></a></li>
                                                 <li><a href="prestation" class="ajax"><?= __('nav_prestation') ?></a></li>
                                             </ul>
-                                            <!--level 2 end -->
                                         </li>
+                                        <li><a href="portfolio" class="ajax"><?= __('nav_portfolio') ?></a></li>
                                         <li><a href="contact" class="ajax"><?= __('nav_contact') ?></a></li>
-                                        <li><a href="index.php?page=admin" style="color:#008751; font-weight:700;"><i class="fal fa-user-shield"></i> <?= __('nav_admin') ?></a></li>
                                     </ul>
                                 </nav>
                                 <!-- nav end-->

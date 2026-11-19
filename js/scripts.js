@@ -1168,8 +1168,11 @@ function initPelzari() {
             popupTextit = $('#map-single').data('popuptext'),
             map = L.map('map-single', {
                 scrollWheelZoom: false
-            }).setView(latlog, 11);
-        L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png').addTo(map);
+            }).setView(latlog, 12);
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            maxZoom: 19,
+            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+        }).addTo(map);
         var greenIcon = L.icon({
             iconUrl: 'images/marker.png',
             iconSize: [40, 40],
@@ -1248,9 +1251,10 @@ function initPelzari() {
             $(".init_hidden_filter").delay(600).slideUp(300);
         }
     });
-    //  menu------------------			
-    $("#menu").menu();
-    $(".sliding-menu li a.nav").parent("li").addClass("submen-dec");
+    //  menu------------------
+    $("#menu a.ajax").on("click", function () {
+        hideMenu();
+    });
     $(".nav-scroll-bar-wrap").niceScroll({
         cursorwidth: "0px",
         cursorborder: "none",

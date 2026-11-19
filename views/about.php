@@ -19,10 +19,9 @@
                                 </div>
                                 <!--fixed-column-wrap_title-->
                                 <div class="fixed-column-wrap_title">
-                                    <h2><span><?= __("nav_about") ?></span></h2>
+                                    <h2 style="color:#ffffff !important;"><span style="color:#ffffff !important;"><?= __("nav_about") ?></span></h2>
                                 </div>
                                 <!--fixed-column-wrap_title end-->
-                                <div class="scroll-notifer"><?= __("scroll_down") ?></div>
                                 <!-- arrow nav -->
                                 <!-- arrow nav end-->
                                 <div class="fwc-dec fwc-dec_top"></div>
@@ -73,7 +72,7 @@
                                                             <div class="num" data-content="0" data-num="25">0</div>
                                                         </div>
                                                     </div>
-                                                    <h6>Collaborateurs</h6>
+                                                    <h6 style="color: #ffffff !important; font-weight: 600; letter-spacing: 2px;">Collaborateurs</h6>
                                                 </div>
                                             </div>
                                             <!-- inline-facts end --> 
@@ -85,7 +84,7 @@
                                                             <div class="num" data-content="0" data-num="145">0</div>
                                                         </div>
                                                     </div>
-                                                    <h6>Projets terminés</h6>
+                                                    <h6 style="color: #ffffff !important; font-weight: 600; letter-spacing: 2px;">Projets terminés</h6>
                                                 </div>
                                             </div>
                                             <!-- inline-facts end -->
@@ -97,7 +96,7 @@
                                                             <div class="num" data-content="0" data-num="357">0</div>
                                                         </div>
                                                     </div>
-                                                    <h6>Clients satisfaits</h6>
+                                                    <h6 style="color: #ffffff !important; font-weight: 600; letter-spacing: 2px;">Clients satisfaits</h6>
                                                 </div>
                                             </div>
                                             <!-- inline-facts end -->
@@ -109,7 +108,7 @@
                                                             <div class="num" data-content="0" data-num="1825">0</div>
                                                         </div>
                                                     </div>
-                                                    <h6>Heures de travail</h6>
+                                                    <h6 style="color: #ffffff !important; font-weight: 600; letter-spacing: 2px;">Heures de travail</h6>
                                                 </div>
                                             </div>
                                             <!-- inline-facts end -->
