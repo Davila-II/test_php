@@ -85,7 +85,7 @@ return [
     'prop_form_details' => 'Précisez votre demande (visite du site, titre foncier, négociation...)',
 
     // Contact Page
-    'contact_header' => 'Coordonnées DjoKhouse SARL',
+    'contact_header' => 'Coordonnées',
     'contact_form_title' => 'Contactez-Nous',
     'contact_email_lbl' => 'Email',
     'contact_addr_lbl' => 'Adresse',

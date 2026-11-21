@@ -667,18 +667,156 @@ textarea:focus {
     color: #4b5563 !important;
 }
 
+/* Ensure contact modal sits above the mobile header */
+body.contact-modal-open #wrapper {
+    z-index: 2000 !important;
+}
+
+/* Contact Form Modal — Full responsiveness for Desktop, Tablet & Mobile */
+.contact-form-wrap {
+    position: fixed !important;
+    top: 0 !important;
+    left: 0 !important;
+    right: 0 !important;
+    bottom: 0 !important;
+    width: 100vw !important;
+    height: 100vh !important;
+    z-index: 9999 !important;
+    display: none;
+    overflow-y: auto !important;
+    -webkit-overflow-scrolling: touch !important;
+    padding: 30px 15px !important;
+    box-sizing: border-box !important;
+}
+
+.contact-form-overlay {
+    position: fixed !important;
+    top: 0 !important;
+    left: 0 !important;
+    right: 0 !important;
+    bottom: 0 !important;
+    width: 100% !important;
+    height: 100% !important;
+    background: rgba(0, 0, 0, 0.7) !important;
+    z-index: 1 !important;
+    cursor: pointer !important;
+}
+
+.contact-form-container {
+    position: relative !important;
+    max-width: 580px !important;
+    width: 100% !important;
+    margin: 30px auto 50px !important;
+    top: 0 !important;
+    z-index: 5 !important;
+}
+
 .contact-form-content {
     background: #ffffff !important;
+    border-radius: 12px !important;
     border: 1px solid #e5e7eb !important;
-    box-shadow: 0 20px 40px rgba(0,0,0,0.1) !important;
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25) !important;
+    padding: 28px 30px !important;
+    position: relative !important;
+    box-sizing: border-box !important;
+    transform: translateY(0) !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+}
+
+.contact-form-content input[type="text"],
+.contact-form-content input[type="email"],
+.contact-form-content input[type="tel"],
+.contact-form-content textarea,
+.contact-form-content select {
+    width: 100% !important;
+    box-sizing: border-box !important;
+    font-size: 13px !important;
+    padding: 12px 14px !important;
+    border-radius: 6px !important;
+}
+
+.contact-form-content button[type="submit"] {
+    width: 100% !important;
+    padding: 14px 20px !important;
+    border-radius: 6px !important;
+    font-size: 13px !important;
+    letter-spacing: 1px !important;
+    cursor: pointer !important;
+    margin-top: 10px !important;
+}
+
+.contact-form-content:before,
+.contact-form-content:after {
+    display: none !important;
+}
+
+.contact-form-header {
+    padding: 0 0 16px 0 !important;
+    margin: 0 !important;
+    border-bottom: 1px solid #f1f5f9 !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-between !important;
 }
 
 .contact-form-header h4 {
     color: #111111 !important;
+    font-size: 20px !important;
+    font-weight: 700 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    background: transparent !important;
+    float: none !important;
 }
 
 .close-cf {
-    color: #111111 !important;
+    position: static !important;
+    width: 36px !important;
+    height: 36px !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    cursor: pointer !important;
+    color: #64748b !important;
+    font-size: 20px !important;
+    border-radius: 50% !important;
+    background: #f8fafc !important;
+    transition: all 0.2s ease !important;
+}
+
+.close-cf:hover {
+    color: #dc2626 !important;
+    background: #fee2e2 !important;
+}
+
+#contact-form {
+    padding-top: 18px !important;
+}
+
+/* Bouton Écrivez-nous */
+.act-cf {
+    cursor: pointer !important;
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    user-select: none !important;
+    -webkit-tap-highlight-color: transparent !important;
+}
+
+@media only screen and (max-width: 768px) {
+    .contact-form-container {
+        margin: 10px auto 40px !important;
+        padding: 0 !important;
+    }
+
+    .contact-form-content {
+        padding: 20px 18px !important;
+    }
+
+    .contact-form-header h4 {
+        font-size: 17px !important;
+    }
 }
 
 select {

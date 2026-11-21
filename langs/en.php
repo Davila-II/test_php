@@ -85,7 +85,7 @@ return [
     'prop_form_details' => 'Describe your inquiry (site visit, land title inspection, negotiation...)',
 
     // Contact Page
-    'contact_header' => 'DjoKhouse SARL Contact Details',
+    'contact_header' => 'Contact Details',
     'contact_form_title' => 'Contact Us',
     'contact_email_lbl' => 'Email',
     'contact_addr_lbl' => 'Address',

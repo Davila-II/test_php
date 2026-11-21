@@ -1407,25 +1407,36 @@ function initPelzari() {
             $(this).shuffleLetters({});
         }
     });
-	//   Contact form------------------
-    var coninw = $(".contact-form-content"),
-        coninbtn = $(".contact-form-btn");
+	//   Contact form modal ------------------
     function showConInfo() {
-        $(".contact-form-wrap").fadeIn(100);
-        coninw.addClass("vis-coninfwrap");
-        coninbtn.removeClass("isconin-btn_vis");
+        $("body").addClass("contact-modal-open");
+        $(".contact-form-wrap").fadeIn(200);
+        $(".contact-form-content").addClass("vis-coninfwrap");
+        $(".contact-form-btn").removeClass("isconin-btn_vis");
+        setTimeout(function() {
+            var firstInput = $(".contact-form-wrap input:visible:first");
+            if (firstInput.length) firstInput.focus();
+        }, 250);
     }
     function hideConInfo() {
-        coninw.removeClass("vis-coninfwrap");
-        coninbtn.addClass("isconin-btn_vis");
-        $(".contact-form-wrap").fadeOut(100);
+        $(".contact-form-content").removeClass("vis-coninfwrap");
+        $(".contact-form-btn").addClass("isconin-btn_vis");
+        $(".contact-form-wrap").fadeOut(200, function() {
+            $("body").removeClass("contact-modal-open");
+        });
     }
-    coninbtn.on("click", function () {
+    $(document).on("click", ".contact-form-btn", function (e) {
+        e.preventDefault();
         if ($(this).hasClass("isconin-btn_vis")) showConInfo();
         else hideConInfo();
     });
-    $(".act-cf").on("click", function () {
+    $(document).on("click", ".act-cf", function (e) {
+        e.preventDefault();
         showConInfo();
+    });
+    $(document).on("click", ".close-cf, .contact-form-overlay", function (e) {
+        e.preventDefault();
+        hideConInfo();
     });
         $("#contactform").submit(function () {
             var a = $(this).attr("action");
